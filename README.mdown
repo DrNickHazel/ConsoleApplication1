@@ -1,1 +1,9 @@
+ConsoleApplication1
+===================
+
 My first console application.
+
+ToDo:-
+------
+
+* Familarise myself with Git & GitHub
