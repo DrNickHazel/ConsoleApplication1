@@ -10,9 +10,9 @@ namespace ConsoleApplication1
     {
         static void Main()
         {
-            Company c = new Company { Name = "Hazelcom" };
+            Company c = new Company { Name = "Hazelcom Ltd" };
 
-            c.Add(new Employee("Nick"));						// Constructs Employee with default Age value
+            c.Add(new Employee("Nicholas"));						// Constructs Employee with default Age value
             c.Add(new Employee { Name = "Tom" });
             c.Add(new Employee { Name = "Dick", Age = 20 });
             c.Add(new Employee { Name = "Harry", Age = 30 });
