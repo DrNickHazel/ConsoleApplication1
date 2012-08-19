@@ -1,6 +1,6 @@
 #
 # Files for Git to ignore
 #
-*.suo		# User Solution Files
-bin/		# Any files in the bin directory
-obj/		# Any files in the obj directory
+*.suo	# User Solution Files
+bin/	# Any files in the bin directory
+obj/	# Any files in the obj directory
