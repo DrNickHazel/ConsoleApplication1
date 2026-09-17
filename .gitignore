@@ -4,3 +4,10 @@
 *.suo		# User Solution Files
 bin/		# Any files in the bin directory
 obj/		# Any files in the obj directory
+/.vs/ConsoleApplication1.slnx
+/.vs/slnx.sqlite
+/.vs/slnx.sqlite-journal
+/.vs/ConsoleApplication1/CopilotIndices/18.10.1189.45219
+/.vs/ConsoleApplication1/FileContentIndex
+/.vs/ConsoleApplication1/v18
+/ConsoleApplication1/obj
