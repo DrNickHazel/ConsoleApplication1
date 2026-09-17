@@ -1,13 +1,19 @@
 #
 # Files for Git to ignore
 #
+# User specific Workspace Files
 *.suo		# User Solution Files
+# Build artifacts
 bin/		# Any files in the bin directory
 obj/		# Any files in the obj directory
-/.vs/ConsoleApplication1.slnx
-/.vs/slnx.sqlite
-/.vs/slnx.sqlite-journal
-/.vs/ConsoleApplication1/CopilotIndices/18.10.1189.45219
-/.vs/ConsoleApplication1/FileContentIndex
-/.vs/ConsoleApplication1/v18
-/ConsoleApplication1/obj
+# Visual Studio 2026 Copilot and semantic caches
+.vs/**/*.slnx
+.vs/**/*.slnx.sqlite*
+.vs/**/CopilotIndices/
+.vs/**/FileContentIndex/
+.vs/**/*.wsuo
+.vs/**/SemanticSymbols.db*
+.vs/**/DocumentLayout*.json
+.vs/
+/ConsoleApplication1/bin/Debug
+/ConsoleApplication1/obj/Debug
