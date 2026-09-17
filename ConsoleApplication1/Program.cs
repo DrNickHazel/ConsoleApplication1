@@ -9,7 +9,7 @@ namespace ConsoleApplication1
             Company c = new Company { Name = "Hazelcom Ltd" };
 
             c.Add(new Employee("Nicholas"));						// Constructs Employee with default Age value
-            c.Add(new Employee { Name = "Tom", Age =20 });					// Constructs Employee with default Age value
+            c.Add(new Employee { Name = "Tom", Age =20 });			// Constructs Employee with default Age value
             c.Add(new Employee { Name = "Dick" });
             c.Add(new Employee { Name = "Harry", Age = 30 });
             c.Add(new Employee());
